@@ -1,0 +1,32 @@
+* {
+    font-family: 'Montserrat-Regular';
+}
+
+@font-face { 
+    font-family: "Montserrat-Bold"; 
+    src: url(../public/fonts/Montserrat-Arabic-Bold.ttf); 
+}
+  
+@font-face { 
+    font-family: "Montserrat-Medium"; 
+    src: url(../public/fonts/Montserrat-Arabic-Medium.ttf); 
+}
+
+@font-face { 
+    font-family: "Montserrat-Regular"; 
+    src: url(../public/fonts/Montserrat-Arabic-Regular.ttf); 
+}
+
+@font-face { 
+    font-family: "Montserrat-Light"; 
+    src: url(../public/fonts/Montserrat-Arabic-Light.ttf); 
+}
+
+@font-face { 
+    font-family: "NotoSansArabic"; 
+    src: url(../public/fonts/NotoSansArabicegular.ttf); 
+}
+
+.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 160px;
+}
